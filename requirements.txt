@@ -6,3 +6,7 @@ pandas
 openai
 python-multipart
 openpyxl
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7578a8d65156a28323b00977224e43ff916fc817
