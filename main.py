@@ -16,6 +16,10 @@ import datetime # Importe datetime para manipular datas e horas
 # Carregar variáveis de ambiente
 load_dotenv()
 
+DATABASE_URL = os.environ['DATABASE_URL']
+
+conn = psycopg2.connect(DATABASE_URL)
+
 # Variáveis de conexão com PostgreSQL
 DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT")
